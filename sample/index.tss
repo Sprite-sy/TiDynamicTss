@@ -1,0 +1,7 @@
+".test": {
+	text: L("hello", "hello"), //original implement
+	top: L(null, "1+1"), //caculation
+	width: L(null, "myFunc(100)"),   //your own funciton 
+	height: L(null, "Titanium.Platform.displayCaps.platformWidth"),  //system value
+	bottom: L(null, "Titanium.Platform.displayCaps.platformWidth/2")  //system value
+}
